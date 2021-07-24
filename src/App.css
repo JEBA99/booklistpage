@@ -28,6 +28,229 @@
   color: #61dafb;
 }
 
+.App-background-image {
+  position: relative;
+  background: #fff url("./bg.jpg") center center;/*slide.jpg =>you image*/    
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+/* .container {
+  position: relative;
+  text-align: center;
+  color: white;
+} */
+
+.home-image {
+  position: relative;
+  top: 0;
+  left: 0;  
+}
+.bmus-image {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+.search-image {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+}
+
+.slide-arrow {
+  position: absolute;
+  top: 200px;
+  right: 20px;
+}
+
+.slide-backward-arrow {
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  z-index: 1;
+}
+
+.close-icon {
+  position: absolute;
+  right: 20px
+}
+
+.heading {
+  position: absolute;
+  font-size: 64px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.125;
+  letter-spacing: normal;
+  color: #fff;
+  padding-left: 50px;
+  margin: 0 0 16px;
+  top: 100px;
+  left: 20px;
+}
+
+.heading1 {
+  position: absolute;
+  font-size: 64px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.125;
+  letter-spacing: normal;
+  color: #fff;
+  padding-left: 50px;
+  margin: 0 0 16px;
+  max-width: 400px;
+  top: 150px;
+  left: 20px;
+}
+
+
+.paragraph {
+  position: absolute;
+  font-family: Helvetica Neue LT W05_45 Light;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: .4px;
+  color: #fff;
+  margin: 0;
+  max-width: 460px;
+  padding-left: 50px;
+  top: 240px;
+  left: 20px;
+}
+
+.slider-div {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  background-color: #131214
+}
+
+.booklist-heading {
+  position: absolute;
+  font-family: Helvetica Neue LT W05_45 Light;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: .4px;
+  color: #fff;
+  margin: 0;
+  max-width: 460px;
+  padding-left: 50px;
+  top: 350px;
+  left: 20px;
+}
+
+.book-image {
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: -.2px;
+  color: #fff;
+  max-width: 100%;
+  margin: 0 0 7px;
+}
+
+.book-rating {
+  background: #003366;
+  opacity: 0.90;
+  font-size: 16px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: .2px;
+  position: absolute;
+}
+
+.card-position {
+  position: absolute;
+  top: 400px;
+  right: 60px;
+  left: 60px;
+}
+
+.card {
+  background-color: #131214 !important;
+  left: "216px"
+}
+
+.selected-book-image {
+  width: 60px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.book-detail-div {
+  height: 500px;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.selected-book-name {
+  font-size: 40px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: .6px;
+  color: #c3a572;
+  margin-bottom: 40px;
+  margin-top: 0;
+  max-width: 360px;
+  text-align: left;
+}
+
+.selected-book-author {
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+  margin-bottom: 2px;
+}
+
+.selected-book-publisher {
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: .43px;
+  color: hsla(0,0%,100%,.6);
+}
+
+.selected-book-description {
+  font-family: Helvetica Neue LT W05_45 Light;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: .4px;
+  color: hsla(0,0%,100%,.7);
+  padding: 0 20px 0 40px;
+  word-break: break-word;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
